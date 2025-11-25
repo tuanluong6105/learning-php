@@ -1,16 +1,13 @@
-
 <html>
+  <link href="css/style.css" rel="stylesheet" />
   <head>
-    <title>DANH SACH LOP</title>
+    <title>Bài thơ</title>
   </head>
   <body>
-    <h1>NHOM MINH</h1>
+    <h1>Nhóm </h1>
     <pre>
-     NGUYEN VAN MINH
-     NHU TUNG LAM 
-     NGUYEN HOANG Hiep
-     HO MINH NHAT
-     
+      Nguyễn Anh Tuấn
+      
     </pre>
     <p>
       (x<sub>1</sub> + x<sub>2</sub>)<sup>2</sup> = x<sub>1</sub><sup>2 </sup> +
@@ -30,12 +27,13 @@
       <li>Cá</li>
       <li>Tôm</li>
     </ol>
-    <h1>AHIHI</h1>
+    <h1>5 người</h1>
     <ol>
-      <li>Minh </li>
+      <li>Mạnh</li>
       <li>Long</li>
-      <li>Hiep</li>
-      <li>Manh</li>
+      <li>Kiên</li>
+      <li>Quốc</li>
+      <li>Tuấn</li>
     </ol>
     <h1>Danh sách các trang web yêu thích</h1>
     <ul>
@@ -45,8 +43,8 @@
       <li><a href="https://translate.google.com/">Google Translate</a></li>
       <li><a href="https://mail.google.com/mail/?tab=rm&ogbl">Gmail</a></li>
     </ul>
-    <table border="1">
-      <thead>
+    <table>
+      <thead class="headtable">
         <tr>
           <th>STT</th>
           <th>Họ và tên</th>
@@ -57,14 +55,14 @@
       <tbody>
         <tr>
           <td>1</td>
-          <td>Nguyễn Anh Tuấn</td>
-          <td>74DCTT22173</td>
+          <td>Nguyễn Trường Giang</td>
+          <td>74DCTT22246</td>
           <td align="center">10</td>
         </tr>
         <tr>
           <td>2</td>
-          <td>Nguyễn Quốc Anh</td>
-          <td>74DCTT222222</td>
+          <td>Nguyễn Anh Tuấn</td>
+          <td>74DCTT22173</td>
           <td align="center">1</td>
         </tr>
         <tr>
@@ -75,17 +73,18 @@
         </tr>
         <tr>
           <td>4</td>
-          <td>Nguyễn </td>
-          <td>74DCTT212324</td>
+          <td>Trần Hữu Mạnh</td>
+          <td>74DCTT2123454</td>
           <td align="center">3</td>
         </tr>
       </tbody>
-      <tfoot>
-        <td colspan="4" align="center">Tổng số người: 4</td>
-      </tfoot>
+      <caption>
+        Tổng số người: 4
+      </caption>
     </table>
     <img
       
+    
     />
     <table border="2" cellpadding="5" cellspacing="0">
       <tr>
@@ -115,13 +114,13 @@
       </tr>
       <tr>
         <td>3</td>
-        <td>Ngô Bá Khá</td>
+        <td>Bình Gold</td>
         <td>5</td>
         <td>Trung bình</td>
       </tr>
       <tr>
         <td>4</td>
-        <td>Dũng Trọc</td>
+        <td>Mai Lisa</td>
         <td>10</td>
         <td>Giỏi</td>
       </tr>
@@ -131,18 +130,23 @@
         <td><b>Khá</b></td>
       </tr>
     </table>
-
+    <br />
     <form>
-      <fieldset>
-        <legend>Đăng nhập</legend>
-        <label for="username">Tên đăng nhập:</label>
-        <input type="text" id="username" name="username" required />
-        <br />
-        <label for="password">Mật khẩu:</label>
-        <input type="password" id="password" name="password" required />
-        <br />
-        <input type="submit" value="Đăng nhập" />
-      </fieldset>
+      <legend>Form đăng nhập</legend>
+      <div class="input-group">
+        <span class="input-icon">👤</span>
+        <input type="text" placeholder="Tên đăng nhập" />
+      </div>
+
+      <div class="input-group">
+        <span class="input-icon">🔑</span>
+        <input type="password" placeholder="Mật khẩu" />
+      </div>
+      <div class="helper-row">
+        <a href="#">Quên mật khẩu</a>
+        <a href="#">Trợ giúp!</a>
+      </div>
+      <button type="submit" class="btn-primary">ĐĂNG NHẬP</button>
     </form>
   </body>
 </html>
