@@ -1,0 +1,85 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(159, 196, 239);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  text-align: center;
+}
+
+.sig {
+  background-color: rgb(137, 172, 233);
+  width: 380px;
+
+  padding: 30px 40px;
+  border-radius: 20px;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+#dangnhap {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #3b327e;
+}
+
+#message {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+/* -------------------- INPUTS -------------------- */
+#username,
+#password {
+  width: 80%;
+  padding: 12px;
+  margin: 10px 0;
+
+  border-radius: 12px;
+  border: 1px solid #7f7fbb;
+  background-color: #f3f5ff;
+
+  font-size: 16px;
+}
+
+#username:focus,
+#password:focus {
+  outline: none;
+  border-color: #5d57b9;
+}
+
+#submit {
+  width: 60%;
+  padding: 12px;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  background-color: #6b62c4;
+  color: white;
+  border: none;
+
+  border-radius: 20px;
+  margin-top: 15px;
+
+  font-size: 17px;
+  font-weight: bold;
+
+  margin: 15px;
+}
+
+#submit:hover {
+  background-color: #5547a9;
+}

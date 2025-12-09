@@ -1,0 +1,31 @@
+/* Text-color */
+.text-color {
+  color: blue;
+}
+/* text-alignment */
+.text-alignment {
+  text-align: justify;
+  /* Kiểu đường viền */
+  border: 1px solid blue;
+  width: 200px;
+}
+/* Text Decoration */
+.text-decoration {
+  text-decoration: line-through;
+  /* text-decoration: overline;
+    text-decoration: underline; */
+}
+/* Text Transformation */
+.text-transformation {
+  /* text-transform: uppercase;    XIN CHAO */
+  /* text-transform: lowercase;  xin chao */
+  text-transform: capitalize;
+}
+.text-spacing {
+  /* Khoảng cách giữa các chữ */
+  letter-spacing: 2px;
+  /* Khoảng cách giữa các từ */
+  word-spacing: 5px;
+  /* Khoảng cách giữa các dòng */
+  line-height: 1.8;
+}

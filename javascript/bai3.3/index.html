@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Sử dụng thuộc tính HTML -->
+    <button onclick="alert('Bạn đã nhấp vào nút')">Nhấn vào đây</button>
+    <!-- Sử dụng thuộc tính onEvent -->
+    <button id="myButton">Vào đây</button>
+    <script>
+      document.getElementById("myButton").onclick = function () {
+        alert("Bạn đã nhấp vào nút");
+      };
+    </script>
+    <!-- sử dụng addEventListener -->
+    <button id="btn">Nhấn</button>
+    <script>
+      document.getElementById("btn").addEventListener("click", function () {
+        alert("Sự kiện click đã xảy ra!");
+      });
+    </script>
+    <!-- Mouse Events -->
+    <button id="hoverBtn">Di chuột vào đây</button>
+    <script>
+      document
+        .getElementById("hoverBtn")
+        .addEventListener("mouseover", function () {
+          this.style.backgroundColor = "yellow";
+        });
+    </script>
+    <!-- Keyboard Events -->
+    <input type="text" id="inputBox" placeholder="Nhập vào đây" />
+    <script>
+      document
+        .getElementById("inputBox")
+        .addEventListener("keydown", function (event) {
+          console.log("Bạn vừa nhấn phím: ", event.key);
+        });
+    </script>
+    <!-- Form Events -->
+    <form id="myForm">
+      <input type="text" id="name" placeholder="Nhập tên" />
+      <button type="submit">Gửi</button>
+    </form>
+    <script>
+      document
+        .getElementById("myForm")
+        .addEventListener("submit", function (e) {
+          let name = document.getElementById("name").value;
+          if (name === "") {
+            alert("Vui lòng nhập tên!");
+            e.preventDefault(); // ngăn chặn gửi form
+          }
+        });
+    </script>
+  </body>
+</html>

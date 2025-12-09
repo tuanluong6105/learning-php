@@ -1,0 +1,58 @@
+/* Định dạng tổng thể */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+/* Khoảng cách dòng */
+.line-height {
+  line-height: 2; /* Tăng khoảng cách giữa các dòng */
+}
+/* Khoảng cách giữa các chữ cái */
+.word-spacing {
+  word-spacing: 10px;
+}
+/* Gạch chân văn bản */
+.text-decoration {
+  text-decoration: underline;
+}
+/* Căn chỉnh văn bản */
+.text-align {
+  text-align: justify; /* Căn đều hai bên */
+  width: 60%;
+  margin: auto;
+}
+/* Biến đổi chữ hoa/thường */
+.text-transform {
+  text-transform: uppercase;
+}
+/* Điều khiển khoảng trắng */
+.white-space {
+  white-space: nowrap; /* Không cho xuống dòng tự động */
+}
+/* Định dạng font chữ */
+.font-family {
+  font-family: "Courier New", monospace;
+}
+/* Cỡ chữ */
+.font-size {
+  font-size: 24px;
+}
+/* Độ đậm chữ */
+.font-weight {
+  font-weight: bold;
+}
+/* Biến thể chữ viết */
+.font-variant {
+  font-variant: small-caps; /* Chuyển chữ thường thành chữ viết hoa nhỏ */
+}
+/* Kiểu chữ */
+.font-style {
+  font-style: italic;
+}
+div {
+  border-top-style: solid;
+  border-right-style: dashed;
+  border-bottom-style: dotted;
+  border-left-style: double;
+}

@@ -1,0 +1,82 @@
+.box-red {
+  /* Không khai báo position */
+  background: red;
+  height: 100px;
+  width: 100px;
+}
+.box-blue {
+  position: static;
+  background: blue;
+  height: 100px;
+  width: 100px;
+}
+/* them giá trị position vào class .box-blue trong trường hợp trước khi them và sau khi them đều cho cùng một kết quả giống nhau */
+
+.box-pink {
+  position: relative;
+  background: pink;
+  width: 100px;
+  height: 100px;
+  top: 150px;
+  left: 150px;
+}
+.box-purple {
+  position: static;
+  background: purple;
+  width: 100px;
+  height: 100px;
+}
+.box-yellow {
+  position: absolute;
+  background: yellow;
+  width: 100px;
+  height: 100px;
+  top: 10px;
+  left: 10px;
+}
+.box-orange {
+  position: static;
+  background: orange;
+  width: 100px;
+  height: 100px;
+}
+.box-green {
+  position: fixed;
+  background: green;
+  width: 100px;
+  height: 100px;
+  right: 0px;
+}
+.box-black {
+  position: static;
+  background: black;
+  width: 100px;
+  height: 100px;
+}
+.box-gray {
+  position: sticky;
+  top: 0;
+  background: gray;
+  width: 100px;
+  height: 100px;
+}
+.box-white {
+  background: rgb(170, 137, 137);
+  width: 100px;
+  height: 100px;
+}
+.box-brown {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: brown;
+  z-index: 2;
+  /* nằm trên */
+}
+.box-white1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  z-index: 1;
+}

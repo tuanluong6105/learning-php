@@ -1,0 +1,120 @@
+<!-- Bộ chọn con cháu -->
+<!-- Bộ chọn con -->
+<!-- Bộ chọn ac kế cận -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang tiêu đề</title>
+    <style>
+      /* div p {
+        color: aqua;
+        font-weight: bold;
+      } */
+      /* div > p {
+        color: aquamarine;
+      }
+      div > p > b {
+        background-color: rgb(49, 36, 147);
+      } */
+      /* h2 + p {
+        color: brown;
+      } */
+      /* h2 ~ p {
+        color: blue;
+      } */
+
+      /* p {
+        display: none;
+        background-color: yellow;
+        padding: 20px;
+      }
+      div:hover p {
+        display: block;
+      } */
+      /* p::first-line {
+        font-weight: bold;
+        color: blueviolet;
+      } */
+
+      /* Đơn vị px (cố định) */
+      .box-px {
+        width: 200px;
+        height: 100px;
+        background-color: lightblue;
+        text-align: center;
+        line-height: 100px;
+      }
+      /* Đơn vị % (linh hoạt theo cha) */
+      .container {
+        width: 80%;
+        background-color: lightgray;
+        padding: 20px;
+      }
+      .box-percent {
+        width: 50%;
+        background-color: coral;
+        padding: 10px;
+      }
+      /* Đơn vị em và rem */
+      .text-em {
+        font-size: 2em;
+        /* 2 lần kích thước chữ của phần tử cha */
+      }
+      .text-rem {
+        font-size: 1.5rem;
+        /* 1.5 lần kích thước chữ gốc của HTML */
+      }
+      /* Đơn vị vw, vh (phụ thuộc viewport) */
+      .full-screen {
+        width: 100vw;
+        height: 50vh;
+        background-color: lightgreen;
+        text-align: center;
+        line-height: 50vh;
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div>
+      <b>Xin chào</b>
+      <p>Ngôn ngữ CSS</p>
+    </div>
+    <p>Mô tả ngôn ngữ CSS</p> -->
+    <!-- <div>
+      <b>Xin chào</b>
+      <p>
+        Ngôn ngữ CSS
+        <b>Mô tả ngôn ngữ CSS</b>
+      </p>
+    </div> -->
+    <!-- <h2>Tiêu đề</h2>
+    <p>Đây là 1 đoạn văn bản.</p>
+    <p>Đây là 1 đoạn văn bản khác.</p> -->
+    <!-- <h2>Tiêu đề</h2>
+    <p>Đây là 1 đoạn văn bản đầu tiên.</p>
+    <p>Đây là 1 đoạn văn bản thứ 2.</p>
+    <div>Đây là đoạn văn bản div.</div>
+    <p>Đây là đoạn văn bản thứ 3.</p> -->
+
+    <!-- <div>
+      Lập trình Web
+      <p>Xin chào đến với học phần lập trình web</p>
+    </div> -->
+    <!-- <p>
+      Website <br />
+      Ngôn ngữ lập trình web
+    </p> -->
+    <h2>Ví dụ về đơn vị</h2>
+    <div class="box-px">Box 20px</div>
+    <div class="container">
+      <div class="box-percent">Box 50% trong container</div>
+    </div>
+    <p class="tex-ex">Chữ có kích thước 2cm</p>
+    <p class="text-rem">Chữ có kích thước 1.5rem</p>
+
+    <div class="full-screen">Full width 100vw & Half Height 50vh</div>
+  </body>
+</html>

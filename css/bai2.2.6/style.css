@@ -1,0 +1,6 @@
+.float-left {
+  float: left;
+  /* float: right; */
+  /* float: none; */
+  margin-right: 10px;
+}
